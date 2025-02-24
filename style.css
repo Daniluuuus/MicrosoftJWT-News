@@ -1,0 +1,277 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.breadcrumb a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+header .meta {
+    font-size: 14px;
+    color: #555;
+}
+
+.toc {
+    background: #e7f3ff;
+    padding: 15px;
+    border-left: 5px solid #0078d4;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.toc h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toc li {
+    margin-bottom: 5px;
+}
+
+.toc a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+.author p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.author a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.author a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+article h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+}
+
+article li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+article code {
+    background-color: #e7e7e7;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #d63384;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.breadcrumb a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-header h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.main-header .meta {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.banner-image {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.toc {
+    background: #e7f3ff;
+    padding: 20px;
+    border-left: 5px solid #0078d4;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.toc h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toc li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.toc a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+.author p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.author a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.author a:hover {
+    text-decoration: underline;
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+article h2 {
+    font-size: 26px;
+    margin: 20px 0 10px;
+    color: #0078d4;
+    border-bottom: 3px solid #0078d4;
+    padding-bottom: 5px;
+}
+
+article h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+article ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+article ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+article code {
+    background-color: #f3f3f3;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: #d63384;
+}
+
+.content-image {
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.callout {
+    background: #fffbcc;
+    padding: 15px;
+    border-left: 5px solid #ffcc00;
+    border-radius: 8px;
+    margin: 30px 0;
+    color: #555;
+}
+
+.callout h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 16px;
+    color: #555;
+}
